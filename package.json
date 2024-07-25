@@ -1,0 +1,20 @@
+{
+  "name": "js-tutorial",
+  "description": "captured the flag Mwanaume alikuliwa akiona infact na mtu ako na pesa kidogo kumshinda hawezi tuambia kitu.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fun",
+    "ninjas"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <%- include('partials/nav.ejs') %>
+    <h1>Contact us!</h1>
+    <p>Contact the cyberjiutsu....</p>
+    
+    <form id="contact-form" method="POST" action="/contact">
+        <label for="who">Who do you want to contact?</label>
+        <input type="text" name="who" value="<%=qs.person%>">
+        <label for ="department">Which department?</label>
+        <input type="text" name="department" value="<%=qs.dept%>">
+        <label for="email">Your email</label>
+        <input type="text" name="email">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
